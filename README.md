@@ -1,82 +1,65 @@
-# Hola, soy Kachytronico 👋
+# Kachytronico
 
-**Data / AI Engineer Junior · Impacto Social**
+AI & Big Data aplicado a diabetes: educación, prevención y modelos explicables.
 
----
+## Sobre mí
+Estoy orientando mi perfil a proyectos de datos e IA aplicados a diabetes, con foco en educación y prevención.
+Actualmente desarrollo una base técnica en Python, SQL, pipelines de datos y ML reproducible.
+Mi diferencial humano viene de mi experiencia previa en integración social y trabajo con personas con NEE.
+Esa trayectoria me ayuda a priorizar claridad, accesibilidad y utilidad real para las personas.
+Me interesa construir soluciones responsables, entendibles y útiles para contextos de salud y educación.
 
-## 🧑‍💻 Sobre mí
+## Qué busco
+- Roles Junior en Data/AI y Data Engineer/ML aplicado a salud o educación.
+- Entornos donde pueda aportar en productos educativos y de prevención en diabetes.
+- Oportunidades remotas o en España.
 
-Vengo del mundo de la integración social, donde trabajé durante años con personas con necesidades educativas especiales. Ese camino me llevó a querer entender los datos que hay detrás de las desigualdades y a usar la IA como herramienta de transformación, no como fin en sí misma. Actualmente estoy cursando la **FP de Especialización en Inteligencia Artificial y Big Data**, aplicando lo aprendido a proyectos con foco en accesibilidad y educación inclusiva. Me interesa especialmente la intersección entre ingeniería de datos sólida y un propósito claro: que la tecnología llegue a quienes más la necesitan.
+## Enfoque actual
+- Educación en diabetes con lenguaje claro y soporte visual.
+- Prevención de diabetes tipo 2 con analítica orientada a hábitos y riesgo.
+- XAI/explicabilidad para que los modelos sean entendibles por personas no técnicas.
 
----
+## Stack
+Python · SQL · pandas · scikit-learn · PySpark · Jupyter · Git · GitHub Actions · Docker
 
-## 🔭 En qué estoy trabajando ahora
+## Proyectos destacados
 
-- Construyendo pipelines de datos reproducibles con Python, pandas y PySpark orientados al análisis de indicadores sociales.
-- Explorando modelos de NLP y ML aplicados a herramientas de apoyo para la comunicación aumentativa y educación inclusiva.
-- Aprendiendo buenas prácticas de MLOps: versionado de datos, tests mínimos, CI/CD con GitHub Actions y contenerización con Docker.
+### A) diabetes-glucose-pattern-explainer
+- Problema: anticipar patrones glucémicos de corto plazo de forma comprensible para aprendizaje personal.
+- Enfoque: modelo de predicción temporal + técnicas de explicabilidad local y global + dashboard educativo.
+- Output: prototipo con predicción orientativa, explicación de variables clave y visualizaciones interpretables.
 
----
+### B) diabetes-prevention-risk-educator
+- Problema: traducir factores de riesgo de T2 a orientación práctica y entendible.
+- Enfoque: cálculo orientativo de riesgo no clínico + contenidos en lenguaje claro + recursos de prevención.
+- Output: herramienta educativa con score orientativo, recomendaciones de lectura y rutas de aprendizaje.
 
-## 🛠️ Tecnologías
+### C) diabetes-data-pipeline
+- Problema: falta de datos limpios y trazables para análisis reproducible en casos educativos.
+- Enfoque: ETL con validaciones de esquema, reglas de calidad y pruebas básicas automatizadas.
+- Output: dataset curado versionado + reportes de calidad + base lista para análisis y modelos.
 
-| Área | Stack |
-|---|---|
-| Lenguajes | Python, SQL |
-| Data & Big Data | pandas, PySpark / Spark |
-| ML / AI | scikit-learn |
-| Infraestructura | Docker, Linux |
-| Dev & CI | Git, GitHub Actions |
+## Cómo trabajo
+- Reproducibilidad: entornos definidos, estructura de proyecto clara y ejecución documentada.
+- Tests mínimos: validaciones de datos y pruebas básicas de funciones críticas.
+- CI: pipeline de integración continua para lint y tests en cada cambio relevante.
 
----
+## Ética y seguridad
+Aviso importante: este perfil y sus proyectos tienen finalidad educativa y de investigación.
+No constituyen consejo médico.
+No deben usarse para diagnóstico, tratamiento ni decisiones clínicas.
 
-## 🚀 Proyectos destacados
+## Contacto
+- LinkedIn: [placeholder]
+- Email: [placeholder]
+- GitHub: https://github.com/kachytronico
 
-> Los repos se irán publicando conforme estén en estado mínimo presentable. Los proyectos de tareas del curso permanecerán privados.
-
-- 📊 **[social-data-pipeline]** *(próximamente)* — Pipeline ETL sobre indicadores de exclusión social; datos abiertos, documentación y tests.
-- 🗣️ **[aac-nlp-tool]** *(próximamente)* — Prototipo de asistente NLP para comunicación aumentativa y alternativa (CAA).
-- 🎓 **[inclusive-edu-analytics]** *(próximamente)* — Análisis exploratorio de datos educativos con visualizaciones orientadas a políticas inclusivas.
-- 🐳 **[ml-reproducible-template]** *(próximamente)* — Plantilla de proyecto ML con Docker, GitHub Actions y estructura de carpetas estandarizada.
-- 🔍 **[spark-social-indicators]** *(próximamente)* — Procesamiento con PySpark de datasets de servicios sociales públicos.
-
----
-
-## ⚙️ Cómo trabajo
-
-- **Reproducibilidad**: entornos definidos con `requirements.txt` / `pyproject.toml` y contenedores Docker.
-- **Documentación**: README en cada repo, docstrings en funciones clave y notebooks con narrativa clara.
-- **Tests mínimos**: validaciones básicas de datos y funciones con `pytest` antes de cualquier merge.
-- **CI**: GitHub Actions para lint (`ruff`/`flake8`) y ejecución de tests en cada PR.
-- **Control de versiones**: ramas feature, commits descriptivos, pull requests con descripción de cambios.
-
----
-
-## 📫 Contacto
-
-- **LinkedIn**: [linkedin.com/in/TU-USUARIO](#) *(reemplazar con tu usuario real)*
-- **Email**: TU-EMAIL@EXAMPLE.COM *(reemplazar con tu email real)*
-- **GitHub**: [@kachytronico](https://github.com/kachytronico)
-
----
-
-## ✅ Siguientes pasos (checklist personal)
-
-- [ ] Publicar y pinear 4–6 repos representativos en el perfil.
-- [ ] Mantener privados los repos de tareas del curso.
-- [ ] Añadir al menos un proyecto con datos reales y documentación completa.
-- [ ] Actualizar LinkedIn con el mismo titular profesional.
-- [ ] Completar los placeholders de contacto (LinkedIn y email).
-- [ ] Añadir GitHub Stats o badges de tecnologías si aportan valor visual.
-
----
-
-## 🇬🇧 Short English version
-
-**Junior Data / AI Engineer | Social Impact**
-
-I come from a background in social integration, having worked for years with people with special educational needs. Now studying a Postgraduate Vocational Program in AI & Big Data, I build data pipelines and ML prototypes aimed at accessibility and inclusive education. Stack: Python · pandas · scikit-learn · PySpark · SQL · Docker · GitHub Actions.
-
-📌 Open to junior roles in Data Engineering, Data Analytics, or Applied ML — especially in social-impact organisations, NGOs, EdTech, and public sector.
-
-📫 [LinkedIn placeholder] · [Email placeholder]
+## Short English version
+AI & Big Data for diabetes education, prevention, and explainable models.
+I am building junior-level skills in data engineering and applied ML for health education.
+My previous background in social integration and SEN support shapes a human-centered approach.
+Current focus: diabetes education, type 2 prevention, and explainable AI.
+I am interested in Junior Data/AI and Data Engineer/ML roles.
+Preferred setup: remote or Spain.
+All projects are educational/research only and not for clinical decisions.
+Contact: LinkedIn [placeholder] · Email [placeholder]
