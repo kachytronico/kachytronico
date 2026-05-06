@@ -1,4 +1,4 @@
-# Alfredo / kachytronico — IA aplicada, Big Data y formación
+# Alfredo Ledesma Ruiz — IA aplicada, Big Data y formación
 
 **Formación en IA aplicada y Big Data | Python, datos, automatización y proyectos con impacto social.**
 
