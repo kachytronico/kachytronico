@@ -1,82 +1,113 @@
-# PORTFOLIO_PLAN.md
+# Portfolio plan
 
-Plan de portfolio con dos rutas complementarias: Data Engineering y Applied ML/XAI en diabetes education.
+Este portfolio no busca mostrar todos los ejercicios realizados, sino seleccionar trabajos que demuestren aprendizaje técnico, capacidad de explicación y orientación a proyectos con impacto real.
 
-## Ruta A: Data Engineering en salud/ONG/educación
+## Eje principal
 
-### Objetivo
-Demostrar capacidad para diseñar pipelines confiables, trazables y reproducibles con datos de salud/educación de fuentes públicas.
+**Formación en IA aplicada y Big Data**, con evidencia técnica en GitHub.
 
-### Mini-proyecto A1: diabetes-data-pipeline
-Entregables:
-- Ingesta de datos (CSV/API) con validación de esquema.
-- ETL con limpieza, estandarización y control de nulos/duplicados.
-- Salida en formato analítico (Parquet/CSV curado) + reporte de calidad.
-- CI con lint y tests básicos.
+La estrategia general es posicionarme como futuro formador en IA aplicada, apoyado en tres pruebas:
 
-Checklist de calidad:
-- [ ] README con objetivo, arquitectura y modo de ejecución.
-- [ ] Pruebas mínimas para transformaciones críticas.
-- [ ] Versionado de datos/documentación de fuentes.
-- [ ] Reglas de calidad automatizadas (tipos, rangos, faltantes).
-- [ ] Ejecución reproducible con un comando documentado.
+1. Formación oficial en Inteligencia Artificial y Big Data.
+2. Repositorios con prácticas reales y notebooks explicados.
+3. Experiencia educativa/social que aporta criterio humano, comunicación y orientación a impacto.
 
-### Mini-proyecto A2: health-education-indicators-mart
-Entregables:
-- Modelo de datos analítico (tablas limpias para consumo BI).
-- Diccionario de datos y reglas de negocio documentadas.
-- Consultas SQL de ejemplo para métricas educativas/preventivas.
-- Dashboard base con indicadores clave.
+## Líneas del portfolio
 
-Checklist de calidad:
-- [ ] Definiciones de métricas claras y consistentes.
-- [ ] SQL legible y revisable.
-- [ ] Dataset y dashboard sincronizados por versión.
-- [ ] Control de calidad en carga incremental.
-- [ ] Evidencia de revisión técnica en PR.
+### 1. Programación de IA en Colab
 
-## Ruta B: Applied ML/XAI en diabetes education
+Repo: [`programacion-ia-colab-labs`](https://github.com/kachytronico/programacion-ia-colab-labs)
 
-### Objetivo
-Construir prototipos de IA explicable orientados a educación en diabetes y prevención, priorizando interpretabilidad y comunicación clara.
+Objetivo:
+Mostrar notebooks prácticos de IA: preparación de datos, clustering, modelos supervisados, visión por computador, evaluación e interpretación.
 
-### Mini-proyecto B1: diabetes-glucose-pattern-explainer
-Entregables:
-- Modelo de predicción a corto plazo de patrón glucémico (orientativo).
-- Capa de explicabilidad (global/local) para variables relevantes.
-- Dashboard educativo con visualizaciones comprensibles.
-- Informe de limitaciones y supuestos.
+Competencias asociadas:
 
-Checklist de calidad:
-- [ ] Separación clara entre datos, entrenamiento y evaluación.
-- [ ] Métricas reportadas con contexto no clínico.
-- [ ] Explicaciones interpretables para público no técnico.
-- [ ] Pruebas mínimas de pipeline y consistencia de features.
-- [ ] Aviso visible: uso educativo/investigación, no clínico.
+- Python y Google Colab.
+- Preprocesamiento y análisis exploratorio.
+- Aprendizaje supervisado y no supervisado.
+- Visión por computador.
+- Métricas, validación y análisis de errores.
+- Explicación técnica en formato notebook.
 
-### Mini-proyecto B2: diabetes-prevention-risk-educator
-Entregables:
-- Estimación orientativa de riesgo de T2 para fines educativos.
-- Módulo de recomendaciones en lenguaje claro.
-- Recursos enlazados sobre hábitos y prevención.
-- Evaluación básica de calibración y claridad de salida.
+### 2. Big Data y procesamiento distribuido
 
-Checklist de calidad:
-- [ ] Texto comprensible y no alarmista.
-- [ ] Explicación de factores de riesgo usados por el modelo.
-- [ ] Validaciones de entrada y manejo de errores.
-- [ ] Pruebas de salida para casos de ejemplo.
-- [ ] Aviso legal y ético en README y UI.
+Repo: [`big-data-hadoop-spark-labs`](https://github.com/kachytronico/big-data-hadoop-spark-labs)
 
-## Prioridad de ejecución
-1. diabetes-data-pipeline
-2. diabetes-glucose-pattern-explainer
-3. health-education-indicators-mart
-4. diabetes-prevention-risk-educator
+Objetivo:
+Mostrar prácticas con Hadoop, HDFS, MapReduce, Pig, Hive y Spark, especialmente orientadas a ETL y análisis de datos.
 
-## Criterios globales de calidad del portfolio
-- Reproducibilidad: entorno y pasos de ejecución documentados.
-- Calidad mínima: lint, tests básicos y CI activo.
-- Trazabilidad: fuentes, supuestos y cambios documentados.
-- Comunicación: README orientado a reclutadores y personas no técnicas.
-- Ética: declaración explícita de uso no clínico en proyectos de diabetes.
+Competencias asociadas:
+
+- Procesamiento distribuido.
+- HDFS y MapReduce.
+- Pig, Hive y Spark.
+- Ingesta, limpieza y transformación de datos.
+- Calidad, trazabilidad e interpretación de datos.
+- Big Data aplicado a casos educativos.
+
+### 3. IA generativa aplicada al aprendizaje y programación
+
+Repo: [`colab-gemini-course-agent`](https://github.com/kachytronico/colab-gemini-course-agent)
+
+Objetivo:
+Mostrar cómo uso Gemini/IA generativa como apoyo para programar, estudiar y documentar notebooks, con prompts, revisión humana y uso responsable.
+
+Competencias asociadas:
+
+- Prompting técnico.
+- Programación asistida por IA.
+- Contextualización con materiales propios.
+- Revisión humana de código generado.
+- Documentación de workflows.
+- Uso responsable de IA generativa.
+
+### 4. IA aplicada a salud y diabetes
+
+Repo: [`diabetes-glucose-pattern-explainer`](https://github.com/kachytronico/diabetes-glucose-pattern-explainer)
+
+Objetivo:
+Explorar prototipos educativos no clínicos sobre datos, diabetes, prevención, explicabilidad y alfabetización sanitaria.
+
+Competencias asociadas:
+
+- IA explicable aplicada a contexto educativo.
+- Alfabetización de datos en salud.
+- Modelado con datos sintéticos.
+- Comunicación clara de limitaciones.
+- Ética, privacidad y uso no clínico.
+
+## Competencias transversales del portfolio
+
+| Competencia | Cómo se demuestra |
+|---|---|
+| **Aprendizaje técnico aplicado** | Notebooks y repos basados en prácticas reales del curso. |
+| **Capacidad docente** | Explicaciones, README claros, estructura de aprendizaje y contextualización. |
+| **Criterio ético y social** | Avisos sobre límites, privacidad, salud y revisión humana. |
+| **Uso práctico de IA generativa** | Prompting, agentes de apoyo, Copilot/Gemini y flujos de trabajo. |
+| **Data literacy** | Transformar datos y modelos en explicaciones comprensibles. |
+| **Construcción progresiva de portfolio** | Repos seleccionados, no volcado completo de tareas. |
+
+## Criterios para publicar un repo
+
+- Debe tener README claro.
+- Debe explicar qué problema o competencia muestra.
+- Debe evitar enunciados privados, datos sensibles o materiales no publicables.
+- Debe incluir límites y contexto.
+- Debe poder abrirse o revisarse fácilmente.
+- Debe aportar valor a mi posicionamiento como futuro formador en IA aplicada.
+
+## Repos candidatos a destacar
+
+1. [`colab-gemini-course-agent`](https://github.com/kachytronico/colab-gemini-course-agent)
+2. [`programacion-ia-colab-labs`](https://github.com/kachytronico/programacion-ia-colab-labs)
+3. [`big-data-hadoop-spark-labs`](https://github.com/kachytronico/big-data-hadoop-spark-labs)
+4. [`diabetes-glucose-pattern-explainer`](https://github.com/kachytronico/diabetes-glucose-pattern-explainer)
+
+## Próximos pasos
+
+- Mejorar descripciones y topics de los repos.
+- Pinear los repos más representativos.
+- Revisar notebooks para limpiar enunciados internos o contenido innecesario.
+- Añadir enlaces a LinkedIn y web personal cuando estén listos.
+- Crear una landing sencilla en `ledesma.app` cuando el perfil GitHub esté asentado.
