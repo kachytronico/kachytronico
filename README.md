@@ -80,8 +80,9 @@ Me interesan oportunidades relacionadas con:
 
 ## Contacto
 
-- LinkedIn: [añadir enlace]
-- Web: [ledesma.app cuando esté lista]
+- LinkedIn: https://www.linkedin.com/in/alfredo-ledesma-ruiz/
+- email: alfredo@ledesma.app
+- Web: www.ledesma.app (en construcción)
 - GitHub: https://github.com/kachytronico
 
 ## Short English version
